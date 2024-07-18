@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator | Md Azmat Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+
+  <!-- linking CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- linking the icons as fonts from boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <h1>MeasureUp</h1>
+    <nav>
+      <a href="#">Temporary</a>
+      <a href="#">Temporary</a>
+      <a href="#">Temporary</a>
+      <a href="#">Temporary</a>
+    </nav>
+    <i class='bx bx-menu-alt-right'></i>
+  </header>
+  <main>
+    <div class="container">
+      <div class="input-container">
+        <div class="input-box">
+          <label for="dob">D.O.B</label>
+          <input type="date" name="dob" id="dob">
+        </div>
+        <div class="input-box">
+          <label for="to-date">To Date</label>
+          <input type="date" name="to-date" id="to-date">
+        </div>
+        <button id="calc-age-btn" onclick="calcAge();">Calculate</button>
+      </div>
+      <div class="result-container">
+        <div class="result-cards">
+          <h1 id="res-year">-</h1><span>YEARS</span>
+        </div>
+        <div class="result-cards">
+          <h1 id="res-month">-</h1><span>MONTHS</span>
+        </div>
+        <div class="result-cards">
+          <h1 id="res-day">-</h1><span>DAYS</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
