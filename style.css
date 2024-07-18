@@ -81,6 +81,7 @@ main {
 }
 
 .input-box input {
+    width: 100%;
     padding-inline: 15px;
     padding-block: 10px;
     font-size: 1.2em;
@@ -88,6 +89,10 @@ main {
     border-radius: 5px;
     border: none;
     outline: none;
+}
+
+.input-box label {
+    font-size: 1.2rem;
 }
 
 .container .result-container {
